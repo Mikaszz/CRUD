@@ -1,3 +1,9 @@
+# Kaip prisijungti. 
+Parsisiuntus failus megstamiausifilmai.sql i phpmyadmin. Patikrinti ar portai apache yra 80, jeigu ne juos pasikeisti kode.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
