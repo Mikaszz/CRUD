@@ -1,0 +1,2 @@
+Sukurtas sioks toks duomenu bazes prisijungimas, duomenu apdorojimas ir jų priemimas. Basics for CRUD implementing :D. Naudojimas visai paprastas:
+xammp->(check for port)->htdocs->persikeli i htdocs aplanka. Susitvarkai portus jeigu ne ant 80-to porto. Apart from that hmm... I guess your good to go ? 
