@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+.App {
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  background-image: url("../public/Wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button{
+  border:none;
+}
+.button:hover{
+ background-color: transparent;
+  box-shadow: none;
+  border:none;
+  transform: none;
+}
+ button{
+  cursor: pointer;
+   background: none;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.9em;
+  margin: 0 0 20px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.4);
+  transform: translateY(1px);
+}
+
+/* EDIT FORMA*/
+
+#SignIn-form {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  height: 500px;
+  width: 350px;
+  margin: 50px 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+
+#SignIn-form h2 {
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
+  margin: 0 0 50px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.9em;
+  margin: 0 0 20px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+label {
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus + label {
+  font-size: 12px;
+  top: -25px;
+}
+
+#SIGNUPSIGNIN {
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* List Create formos*/
+.nav-link {
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold; 
+  margin-right: 20px; 
+}
+
+.nav-link:hover {
+  color: #ff0000 !important; 
+}
+.nav-links {
+  list-style: none;
+  display: flex; 
+}
+th.sortable {
+  position: relative;
+  cursor: pointer;
+}
+
+th.sortable::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+}
+
+th.sortable:hover::before {
+  border-bottom: 6px solid #e9ecef;
+}
+
+
+
+
